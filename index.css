@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  
+}
+.container{
+  background-image: url('https://res.cloudinary.com/do6vcxtzb/image/upload/v1722521480/hosp_u1qayx.jpg'); /* Replace with your image URL */
+  height: 100VH;
+  background-size: cover;
+
+
+}
+.navbar {
+  background-color: rgba(78, 41, 226, 0.8); /* Semi-transparent background */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar-logo a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-menu li {
+  margin-left: 20px;
+}
+
+.navbar-menu a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.navbar-menu a:hover {
+  color: #cce7ff;
+}
+.container{
+  text-align: center;
+
+}
+.cont-head{
+  font-size: 60px;
+}
+.abt{
+  color: rgb(104, 67, 237);
+  text-align: center;
+}
+.title{
+  color: rgb(104, 67, 237);
+  text-align: center;
+
+}
+.containern{
+  text-align: center;
+background-color:azure;
+  height: 50VH;
+  background-size: cover;
+}
+.cont{
+  padding-left: 45%;
+  padding-top: 20%;
+}
+.containenz{
+  background-color: azure;
+}
+.cont{
+  background-color: rgb(127, 155, 155);
+}
