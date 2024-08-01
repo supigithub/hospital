@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital website</title>
+    <link rel="stylesheet" href="index.css" />
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <a href="#">Swasa</a>
+        </div>
+        <ul class="navbar-menu">
+            <li><a class="nav-link scrollto active" href="#home">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto" href="#doctors">Doctors</a></li>       
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+            
+        </ul>
+    </nav>
+    
+    <section id="home" class="d-flex align-items-center">
+        <div class="container">
+          <h1 class="cont-head">Welcome to Swasa <br> Healthcare</h1>
+          <h2 class="cont-head2">We are team of Specialized Doctors.<br>"Your devotion and care bring healing, comfort and hope."</h2>
+          <button  class="custom-outline-button">
+            <a href="#about" class="btn-get-started scrollto">
+          MAKE YOUR APPOINTMENT</button>
+         </a>
+        </div>
+      </section><!-- End Home -->
+    
+      <section id="about" class="about">
+          <div class="section-title">
+            <h2 class="abt">About Us</h2>
+            <p><p>Welcome to Swasa, where our commitment to excellence in healthcare is unwavering. Since our founding, we have been dedicated to providing the highest quality medical care to our community.</p>
+
+            <h3>Our Mission</h3>
+            <p>Our mission is to deliver compassionate, patient-centered care of the highest quality. We strive to improve the health and well-being of those we serve by providing comprehensive and innovative healthcare services.</p>
+            <section id="services" class="Services"> 
+            <div class="icon-box">
+                <div class="icon"><i class="bx bx-help-circle"></i></div>
+                <h2 class="title">SERVICES</h2>
+                <p>We offer a wide range of medical services to meet the diverse needs of our patients, including:</p>
+        <ul>
+            <li>Emergency Care</li>
+            <li>Cardiology</li>
+            <li>Orthopedics</li>
+            <li>Maternity and Newborn Care</li>
+            <li>General Surgery</li>
+            <li>Outpatient Services</li>
+            <li>Rehabilitation</li>
+            <li>And much more...</li>
+              </div>
+            </ul>
+              </p>
+              
+            </div>
+            
+            <section id="appointment" class="appointment section-bg">
+                <div class="containern">
+          
+                  <div class="section-title">
+                    <h2>Make an Appointment</h2>
+                  </div>
+          
+                  <form accept="" role="form" class="php-email-form">
+                    <div class="row">
+                      <div class="col-md-4 form-group">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" >
+                      </div>
+                      <div class="col-md-4 form-group mt-3 mt-md-0">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" >
+                       
+                      </div>
+                      <div class="col-md-4 form-group mt-3 mt-md-0">
+                        <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone" >
+                        
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-4 form-group mt-3">
+                        <input type="datetime" name="date" class="form-control datepicker" id="date" placeholder="Appointment Date" >
+                        
+                      </div>
+                      <div class="col-md-4 form-group mt-3">
+                        <select name="age" id="age" class="form-select">
+                          <option value="">Select Age</option>
+                          <option value="Department 1">Below 18</option>
+                          <option value="Department 2">18-40</option>
+                          <option value="Department 3">40 above</option>
+                        </select>
+                        
+                      </div>
+                      <div class="col-md-4 form-group mt-3">
+                        <select name="doctor" id="doctor" class="form-select">
+                          <option value="">Select Doctor</option>
+                          <option value="Doctor 1">Doctor 1</option>
+                          <option value="Doctor 2">Doctor 2</option>
+                          <option value="Doctor 3">Doctor 3</option>
+                        </select>  
+                      </div>
+                    </div>
+          
+                    <div class="form-group mt-3">
+                      <textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)"></textarea>
+                      
+                    </div>
+                    <div class="text-center"><button type="submit">Make an Appointment</button></div>
+                  </form>
+                  <br><br><br><br><br>
+          <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+        <div class="containenz">
+  
+          <div class="section-title">
+            <h2>Contact us</h2>           
+  
+                  <h4 class="hh">Location:</h4>
+                  <p class="jj">Sarjapur Road, Bengaluru, Karnataka 560034 </p>
+                </div>
+  
+                <div class="email">
+                  <i class="bi bi-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>swasa@gmail.com</p>
+                </div>
+  
+                <div class="phone">
+                  <i class="bi bi-phone"></i>
+                  <h4>Call:</h4>
+                  <p>080 2206 5008</p>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+  <div class="cont">
+            <div class="col-lg-8 mt-5 mt-lg-0">
+              <form action="" role="form" class="php-email-form">
+                <div class="row">
+                    <h2>Your Details:</h2>
+                  <div class="col-md-6 form-group">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  </div>
+                  <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group mt-3">
+                  <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                </div>
+                <div class="text-center"><button type="submit">Send Message</button></div>
+              </form>
+            </div>
+            </div>
+  
+          </div>
+  
+        </div>
+      </section>
+                </div>
+              </section>
+          </div> 
+          <script src="vendor/php-email-form/validate.js"></script>
+          <script src="js/jsmain.js"></script>   
+</body>
+</html>
+
+    
+</body>
+</html>
